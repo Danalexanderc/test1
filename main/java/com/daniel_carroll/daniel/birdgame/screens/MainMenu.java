@@ -31,6 +31,9 @@ public class MainMenu extends Level {
         spriteManager.loadSprite(context, R.drawable.jeff,"jeff", 300, 300, false);
 
         spriteManager.displaySprite("menuback", 10);
+
+        spriteManager.displaySprite("jeff", 20);
+        spriteManager.getImages(20).visible = false;
     }
 
     @Override
